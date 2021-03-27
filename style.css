@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix-description {
+.eisenhower-matrix-desc {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix-description img {
+.eisenhower-matrix-desc img {
   width: 100%;
 }
-.eisenhower-matrix-description .more-inf {
+.eisenhower-matrix-desc .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .eisenhower-matrix-description {
+  .eisenhower-matrix-desc {
   text-align: center;
   }
 }
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-label {
+.task-lbl {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -127,15 +127,15 @@ li > label {
 li > input[type="text"] {
   width: 226px
 }
-li > button.delete-button:hover {
+li > button.del-btn:hover {
   color: #CF2323;
 }
-button.delete-button img {
+button.del-btn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete-button img:hover {
+button.del-btn img:hover {
   transform: rotateZ(0);
 }
 
