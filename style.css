@@ -4,27 +4,27 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix-desc {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix-desc .img {
+.header__image {
   width: 100%;
 }
-.eisenhower-matrix-desc .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .eisenhower-matrix-desc {
+  .header {
     text-align: center;
   }
 
 }
-.main-content-wrapper {
+.main_centered {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -39,7 +39,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-task-section__content {
   display: flex;
 }
 .ul {
@@ -101,7 +101,7 @@ label[for="new-task"] {
 #new-task-input {
   width: 318px;
 }
-p > .btn:hover {
+.add-task-section__add-btn:hover {
   color: #0fc57c;
 }
 
