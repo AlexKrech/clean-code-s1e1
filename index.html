@@ -18,7 +18,7 @@
     </header>
     <main class="main main_centered">
       <section class="add-task-section">
-        <label for="new-task">Add Item</label>
+        <label class="add-task-section__label">Add Item</label>
         <div class="add-task-section__content">
           <input id="new-task-input" class="input task-input" type="text">
           <button class="btn add-task-section__add-btn">Add</button>
@@ -28,35 +28,35 @@
         <h1 class="title">Todo</h1>
         <ul id="incompleted-tasks" class="ul task-list">
           <li class="li">
-            <input type="checkbox" class="input">
+            <input type="checkbox" class="input checkbox-input">
             <label class="task-lbl">Pay Bills</label>
             <input type="text" class="input task-input">
             <button class="btn edit-btn">Edit</button>
             <button class="btn del-btn">
-              <img src="./remove.svg" alt="Close">
+              <img src="./remove.svg" alt="Close" class="del-btn__img">
             </button>
           </li>
           <li class="edit-mode li">
-            <input type="checkbox" class="input">
+            <input type="checkbox" class="input checkbox-input">
             <label class="task-lbl">Go Shopping</label>
             <input type="text" value="Go Shopping" class="input task-input">
             <button class="btn edit-btn">Save</button>
             <button class="btn del-btn">
-              <img src="./remove.svg" alt="Close">
+              <img src="./remove.svg" alt="Close" class="del-btn__img">
             </button>
           </li>
         </ul>
       </section>
-      <section class="to-do-task-section">
+      <section class="completed-task-section">
         <h2 class="title">Completed</h2>
         <ul id="completed-tasks" class="ul task-list">
           <li class="li">
-            <input type="checkbox" class="input" checked>
+            <input type="checkbox" class="input checkbox-input" checked>
             <label class="task-lbl">See the Doctor</label>
             <input type="text" class="input task-input">
             <button class="btn edit-btn">Edit</button>
             <button class="btn del-btn">
-              <img src="./remove.svg" alt="Close">
+              <img src="./remove.svg" alt="Close" class="del-btn__img">
             </button>
           </li>
         </ul>
